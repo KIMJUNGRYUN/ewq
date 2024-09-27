@@ -46,7 +46,6 @@
 }
 
 .btn-primary:hover, .btn-book-online:hover .btn-custom:hover {
-   
     background-color: rgba(252,244,3);
 }
 
@@ -113,6 +112,7 @@
     flex-direction: column;
     justify-content: center;
 }
+
 .text-box h2 {
     margin-bottom: 1rem;
     color: burlywood;
@@ -125,6 +125,7 @@
 .text-box p {
     flex-grow: 1;
 }
+
 /* 방 이미지 스타일 */
 .room img {
     width: 100%;
@@ -133,7 +134,6 @@
     border-radius: 5px;
     transition: transform 0.3s;
 }
-
 
 .room img:hover {
     transform: scale(1.05);
@@ -151,7 +151,6 @@ body {
 .btn-custom:hover{
     background-color: #e0a800;
 }
-
 
 .section-spacing1{
     margin-top: 5rem; /* 약 64px */
@@ -174,3 +173,46 @@ body {
         font-size: 1rem;
     }
 }
+
+/* hover-scale 클래스에 확대 효과 적용 (추가 요청 전 코드에는 포함되지 않음) */
+/*
+.hover-scale {
+    transition: transform 0.3s ease; 
+}
+
+.hover-scale:hover {
+    transform: scale(1.05); 
+}
+*/
+
+/* 부드러운 스크롤을 위한 CSS */
+html {
+    scroll-behavior: smooth;
+}
+
+/* '위로 올라가기' 버튼 스타일 (추가 요청 후 코드에는 포함되지 않음) */
+/*
+.back-to-top {
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+    display: block; 
+    background-color: #e0a800;
+    color: white;
+    padding: 12px 16px;
+    border-radius: 50%;
+    text-align: center;
+    text-decoration: none;
+    font-size: 24px;
+    transition: background-color 0.3s, opacity 0.3s;
+    z-index: 1000;
+    opacity: 0.7;
+}
+
+.back-to-top:hover {
+    background-color: #d19c00;
+    opacity: 1;
+    text-decoration: none;
+    color: white;
+}
+*/
