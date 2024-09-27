@@ -1,4 +1,4 @@
-/* 폼 컨트롤 포커스 스타일 */
+/* 폼 컨트롤 포커스 스타일 s*/
 .form-control:focus, .form-select:focus {
     border-color: #e0a800;
     box-shadow: 0 0 5px rgba(224, 168, 0, 0.5);
